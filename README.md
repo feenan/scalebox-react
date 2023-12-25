@@ -1,13 +1,13 @@
 # 第三方库使用
 ## NPM包地址
 ## 安装
-npm install @ry/scalebox-react
+npm install @feenan/scalebox-react
 ## 使用场景
 在React项目中，当你需要开发大屏，希望宽高保持固定比例自适应视口或者其他容器展示时。
 ## 使用方式
 
 ```jsx
-import ScaleBox from '@ry/scalebox-react'
+import ScaleBox from '@feenan/scalebox-react'
 
 <ScaleBox width={1908} height={1000}>
     <div>这里是具体的被放缩的子组件，应用时替换即可，传参时要传isFullScreen或者container，属性说明与传参类型见下方API详细说明</div>

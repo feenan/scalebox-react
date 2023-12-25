@@ -94,6 +94,7 @@ class ScaleBox extends React.Component {
 	}
 
   render(){
+    // eslint-disable-next-line
     const { props: { isFullScreen, container, width, height, children, ...argProps }, state: { scale } } = this;
 
     return <div className="ry-scale-box"

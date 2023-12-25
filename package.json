@@ -1,7 +1,7 @@
 {
     "name": "@ry/scalebox-react",
     "version": "0.1.0",
-    "author": "任悦",
+    "author": "feenan",
     "description": "一个用于开发大屏的react组件",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",

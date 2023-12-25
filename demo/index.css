@@ -1,0 +1,13 @@
+.testBox{
+    width: 50%;
+    height: 50%;
+    margin: auto
+}
+.testContent{
+    width: 100%;
+    height: 100%;
+    background: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,6 +1,6 @@
 {
     "name": "@feenan/scalebox-react",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "feenan",
     "description": "一个用于开发大屏的react组件,支持全局模式和容器模式",
     "main": "lib/index.js",

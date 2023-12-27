@@ -5,15 +5,6 @@ interface BasicProps extends React.HTMLAttributes<HTMLDivElement> {
     isFullScreen?: boolean,
     container?: HTMLElement
 }
-
-// interface ScaleBox extends React.Component<BasicProps & {
-//     children?: React.ReactNode;
-// }>{}
-
-// declare const ScaleBox: ScaleBox
-// : React.Component<BasicProps & {
-//     children?: React.ReactNode;
-// }>
 declare class ScaleBox extends React.Component<BasicProps & {
     children?: React.ReactNode;
 }, {

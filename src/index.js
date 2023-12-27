@@ -86,7 +86,7 @@ class ScaleBox extends React.Component {
       ww = window.innerWidth / width;
       wh = window.innerHeight / height;
     }else{
-    const {width: currentWidth, height: currentHeight} = e[0].contentRect;
+      const {width: currentWidth, height: currentHeight} = e[0].contentRect;
       ww = currentWidth / width;
       wh = currentHeight / height;
     }

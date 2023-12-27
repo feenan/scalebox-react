@@ -6,5 +6,21 @@ interface BasicProps extends React.HTMLAttributes<HTMLDivElement> {
     container?: HTMLElement
 }
 
-declare const ScaleBox : React.Component<BasicProps>
-export default ScaleBox
+// interface ScaleBox extends React.Component<BasicProps & {
+//     children?: React.ReactNode;
+// }>{}
+
+// declare const ScaleBox: ScaleBox
+// : React.Component<BasicProps & {
+//     children?: React.ReactNode;
+// }>
+declare class ScaleBox extends React.Component<BasicProps & {
+    children?: React.ReactNode;
+}, {
+    scale: number,
+    boxObserver: ResizeObserver | null,
+}>{
+    getScale: (e?: Event | ResizeObserverEntry[]) => number
+    changeScale: () => void
+}
+export default ScaleBox 
